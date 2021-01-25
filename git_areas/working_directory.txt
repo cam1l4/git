@@ -1,0 +1,28 @@
+ 
+Working directory
+          Es el area donde realizamos las diferentes tareas
+          como la creacion, edicion y eliminacion de archivos.
+          Practicamente cualquier carpeta es un directorio de
+          trabajo, pero solamente se hara seguimiento de los 
+          archivos en las que se haya iniciado el repositorio.
+
+          Nota: Al ser el area de trabajo, con poca frecuencia
+          necesitareamos acceder a la consola, pero si es
+          necesaria la implementacion de algunos comandos basicos.
+
+Comandos:
+       dir / ls       => Muestra el contenido del directorio actual
+       cd <folder>    => Abre la carpeta especifica
+       cd..           => Vuelve al directorio anterior
+       mkdir <name>   => Crea un directorio con el nombre indicado
+       rmdir <folder> => Elimina el directorio que coincida con el nombre
+
+       *cat/touch/copy con <file> => crea un archivo *(depende del terminal)
+        
+
+GIT: 
+       git init       => Inicializa un repositorio de git
+       git status     => Evaluar el index con el working directory
+       rm -rf .git    => Elimina el repositorio actual (No modifica 
+                         los archivos de la carpeta)
+       
